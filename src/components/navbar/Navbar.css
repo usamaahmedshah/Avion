@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Header {
+  width: 100%;
+}
+
+.header-1 {
+  padding: 10px 0px;
+  background-color: #fff;
+  color: #22202e;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.inner-header-1 {
+  display: flex;
+  flex-direction: row;
+  width: 66%;
+  padding-left: 5%;
+  font-size: 20px;
+}
+
+.header-1-text {
+  padding-right: 600px;
+  width: 16px;
+  height: 16px;
+}
+.header-3-text {
+  font-size: 24px;
+  font-family: 'clash-family', sans-serif;
+  padding-right: 550px;
+}
+
+.header-1-icon {
+  padding-right: 600px;
+  width: 16px;
+  height: 16px;
+}
+.inner-header-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30%;
+  padding-right: 7%;
+  color: #22202e;
+  gap: 30px;
+}
+
+.logo img {
+  padding-right: 100px;
+  width: 200px;
+  height: 10vh;
+}
+
+.navbar {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #726e8d;
+  background-color: #fff;
+  width: 100%;
+  padding-left: 11%;
+  justify-content: space-between;
+  font-family: 'satoshi', sans-serif;
+  font-size: 16px;
+  align-items: center;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 0px 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .inner-header-2 {
+    display: none;
+    overflow: hidden;
+  }
+
+  .navbar {
+    padding-left: 140px;
+    width: 100%;
+  }
+
+  .inner-header-1 {
+    display: none;
+  }
+
+  .inner-header-3 {
+    margin-left: 20px;
+  }
+
+  hr {
+    display: none;
+  }
+}
