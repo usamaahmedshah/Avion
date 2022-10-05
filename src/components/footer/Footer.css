@@ -1,8 +1,8 @@
-
 .footerbg {
   color: #2a254b;
   width: 100%;
   height: 380px;
+  position: absolute;
 }
 
 footer span {
@@ -46,14 +46,13 @@ footer span {
     flex-direction: column;
   }
 
-  .newsleter{
+  .newsleter {
     width: 100%;
-    min-height:15rem;
+    min-height: 15rem;
     padding: 10px;
   }
 
-  .signup-btn{
-
+  .signup-btn {
   }
 }
 
