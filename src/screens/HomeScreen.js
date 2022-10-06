@@ -11,7 +11,7 @@ import { GiSprout } from 'react-icons/gi';
 const HomeScreen = () => {
   return (
     <>
-      <div className='sub-section-1'>
+      <div className='section-1'>
         <div class='row'>
           <div class='col-xs-7 col-sm-12 col-lg-6'>
             <h3>The furniture brand for the future, with timeless designs</h3>
