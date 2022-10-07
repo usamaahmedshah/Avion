@@ -1,13 +1,6 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 100px;
-}
-
-.sub-section-3 {
-  text-align: center;
-  justify-content: center;
-  margin: 10% 0 10% 5%;
 }
 
 .btn-1 {
@@ -44,46 +37,19 @@
   left: 1110px;
 }
 
-@media only screen and (max-width: 600px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .section-1 {
-    width: 400px;
-    height: 400px;
-    left: 150px;
-    font-size: 18px;
-    padding: 0px 100px 10px 0px;
-    margin-left: 0px;
-  }
-  .section1-detail {
-    padding: 0px;
-    font-size: 16px;
-  }
-  .section1-img {
-    position: absolute;
-    width: 400px;
-    height: 300px;
-    margin-right: 50px;
-    left: 0px;
-    top: 495px;
-    padding-bottom: 20px;
-  }
-  .card{
-    margin-left: 0px;
-    margin-right: 100px;
-    width: 100%;
-  }
+.section-2 {
+  margin-left: 10px;
+  padding: 10px 44px 10px;
 }
-
 .card {
   border: none;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0px 0px 10px;
   margin-left: 85px;
   font-weight: 400;
+  width: 100%;
   font-family: 'clash-display', sans-serif;
+  display: flex;
+  flex-direction: row;
 }
 
 .card-heading {
@@ -108,4 +74,134 @@
 
 .sub-section-3-img {
   margin: 10px 10px 10px 10px;
+}
+
+.section-2 {
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.section-3 {
+  margin-right: 10px;
+}
+
+.section3-card {
+  height: 475px;
+  width: 305px;
+  top: 50px;
+  padding: 10px 50px 100px 10px;
+  margin-left: 140px;
+}
+
+.section-5 {
+  padding: 100px 100px 100px 100px;
+  margin-left: 250px;
+}
+
+.section5-detail {
+  margin-left: 70px;
+}
+
+.section5-newsletter {
+  width: 750px;
+  margin-left: 70px;
+}
+
+.section5-newsletterbtn {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+
+  width: 118px;
+  height: 70px;
+  color: #ffffff;
+
+  /* Dark Primary */
+
+  background: #2a254b;
+}
+
+.section-6 {
+  width: 646px;
+  height: 500px;
+  left: 150px;
+  font-size: 18px;
+  padding: 10px 80px 10px 30px;
+  margin-left: 300px;
+}
+
+.section-6 {
+  width: 1480px;
+  height: 500px;
+  padding: 50px 100px 50px 50px;
+  margin-left: 150px;
+  font-weight: 400;
+  font-family: 'clash-display', sans-serif;
+}
+
+.section6-btn{
+  padding: 10px 10px 10px 10px;
+  margin-top: 170px;
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .card-1 {
+    top: 280px;
+    margin-right: 100px;
+  }
+  .section-1 {
+    width: 646px;
+    height: 280px;
+    left: 150px;
+    font-size: 18px;
+    padding: 10px 80px 10px 30px;
+    margin-left: 0px;
+  }
+  .section1-detail {
+    padding: 0px;
+    font-size: 16px;
+  }
+  .section1-img {
+    position: absolute;
+    width: 646px;
+    height: 300px;
+    margin-right: 50px;
+    left: 0px;
+    top: 377px;
+    padding-bottom: 40px;
+  }
+
+  .card {
+    padding: 10px 10px 10px 10px;
+  }
+
+  .card-heading {
+    justify-content: center;
+    padding: 100px 10px 10px 10px;
+  }
+
+  .section-2 {
+    height: 1000px;
+  }
+
+  .card-heading {
+    margin-left: 150px;
+    padding: 0px;
+  }
+  .section3-card {
+    padding: 0px;
+    height: 350px;
+  }
 }
